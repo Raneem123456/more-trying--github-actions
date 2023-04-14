@@ -2,7 +2,7 @@ FROM alpine
 
 WORKDIR /app
 
-COPY index.js.
+COPY index.js .
 
 RUN apk add --updatenodejs
 
